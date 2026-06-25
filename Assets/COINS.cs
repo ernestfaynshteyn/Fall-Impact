@@ -8,7 +8,7 @@ public class COINS : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            MoneySystem.money += coinValue;
+            MoneySystem.Instance.money += coinValue;
             Destroy(gameObject);
         }
     }
