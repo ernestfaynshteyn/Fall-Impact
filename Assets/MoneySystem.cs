@@ -29,4 +29,15 @@ public class MoneySystem : MonoBehaviour
     {
         moneyText.text = "$ " + money;
     }
+
+    public bool SpendMoney(int amount)
+    {
+        if (money >= amount)
+        {
+            money -= amount;
+            return true;
+        }
+
+        return false;
+    }
 }
