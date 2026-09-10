@@ -106,14 +106,14 @@ public class CQExamplePlayer : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            if (GetComponent<Rigidbody>().velocity.magnitude < movementSpeed)
+            if (GetComponent<Rigidbody>().linearVelocity.magnitude < movementSpeed)
             {
                 GetComponent<Rigidbody>().AddForce(transform.forward * movementSpeed);
             }
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            if (GetComponent<Rigidbody>().velocity.magnitude < movementSpeed)
+            if (GetComponent<Rigidbody>().linearVelocity.magnitude < movementSpeed)
             {
                 GetComponent<Rigidbody>().AddForce(-transform.forward * movementSpeed);
             }

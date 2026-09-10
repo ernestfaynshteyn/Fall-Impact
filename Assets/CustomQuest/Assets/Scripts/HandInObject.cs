@@ -36,7 +36,7 @@ public class HandInObject : MonoBehaviour
     /// <summary>
     /// Gets the radius of this handinobject, or sets it and the attached sqherecolliders radius
     /// </summary>
-    [SerializeField]
+    //[SerializeField]
     public float Radius { get { return radius; } set { radius = value; if (sphere) { sphere.radius = radius; } } }
 
     #endregion Properties
