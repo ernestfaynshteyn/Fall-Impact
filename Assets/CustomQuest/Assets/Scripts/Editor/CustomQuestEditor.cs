@@ -2099,7 +2099,7 @@ public class CustomQuestEditor : EditorWindow
                     if (currentEvent.button == 0)
                     { // Left click
                         buttonClicked = true;
-                        if (makingNodeConnection != true && currentEvent.type == EventType.MouseDown)
+                        if (makingNodeConnection != true && currentEvent.type == EventType.mouseDown)
                         {
                             //currentEdge = qn.startEdge;
                             makingNodeConnection = true;
@@ -2108,7 +2108,7 @@ public class CustomQuestEditor : EditorWindow
                         }
                         else if (originNode != null)
                         {
-                            if (originNode.startEdge != qn.startEdge && currentEvent.type == EventType.MouseUp)
+                            if (originNode.startEdge != qn.startEdge && currentEvent.type == EventType.mouseUp)
                             {  // Click and drag connections logic
                                 makingNodeConnection = false;
                                 MakeQuestConnection(originEdge, qn.startEdge);
@@ -2118,7 +2118,7 @@ public class CustomQuestEditor : EditorWindow
                     else if (currentEvent.button == 1)
                     { // Right Click
                         buttonClicked = true;
-                        if (currentEvent.type == EventType.MouseDown)
+                        if (currentEvent.type == EventType.mouseDown)
                         {
                             GenericMenu menu = new GenericMenu();
                             foreach (QuestConnection c in qn.startEdge.connections)
@@ -2147,7 +2147,7 @@ public class CustomQuestEditor : EditorWindow
                     if (currentEvent.button == 0)
                     {
                         buttonClicked = true;
-                        if (makingNodeConnection != true && currentEvent.type == EventType.MouseDown)
+                        if (makingNodeConnection != true && currentEvent.type == EventType.mouseDown)
                         {
                             //currentEdge = qn.completeEdge;
                             makingNodeConnection = true;
@@ -2156,7 +2156,7 @@ public class CustomQuestEditor : EditorWindow
                         }
                         else if (originNode) //Checks for null, to avoid error
                         {
-                            if (originNode.completeEdge != qn.completeEdge && currentEvent.type == EventType.MouseUp)
+                            if (originNode.completeEdge != qn.completeEdge && currentEvent.type == EventType.mouseUp)
                             { // Click and drag connections logic
                                 makingNodeConnection = false;
                                 MakeQuestConnection(qn.completeEdge, originEdge);
@@ -2166,7 +2166,7 @@ public class CustomQuestEditor : EditorWindow
                     else if (currentEvent.button == 1)
                     { // Right Click
                         buttonClicked = true;
-                        if (currentEvent.type == EventType.MouseDown)
+                        if (currentEvent.type == EventType.mouseDown)
                         {
                             GenericMenu menu = new GenericMenu();
                             foreach (QuestConnection c in qn.completeEdge.connections)
@@ -2196,7 +2196,7 @@ public class CustomQuestEditor : EditorWindow
                     if (currentEvent.button == 0)
                     {
                         buttonClicked = true;
-                        if (makingNodeConnection != true && currentEvent.type == EventType.MouseDown)
+                        if (makingNodeConnection != true && currentEvent.type == EventType.mouseDown)
                         {
                             //currentEdge = qn.failEdge;
                             makingNodeConnection = true;
@@ -2205,7 +2205,7 @@ public class CustomQuestEditor : EditorWindow
                         }
                         else if (originNode)
                         {
-                            if (originNode.failEdge != qn.failEdge && currentEvent.type == EventType.MouseUp)
+                            if (originNode.failEdge != qn.failEdge && currentEvent.type == EventType.mouseUp)
                             { // Click and drag connections logic
                                 makingNodeConnection = false;
                                 MakeQuestConnection(qn.failEdge, originEdge);
@@ -2215,7 +2215,7 @@ public class CustomQuestEditor : EditorWindow
                     else if (currentEvent.button == 1)
                     { // Right Click
                         buttonClicked = true;
-                        if (currentEvent.type == EventType.MouseDown)
+                        if (currentEvent.type == EventType.mouseDown)
                         {
                             GenericMenu menu = new GenericMenu();
                             foreach (QuestConnection c in qn.failEdge.connections)
