@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: d981767ebffe6ea4c90f7e6d98bfa4d0
-timeCreated: 1488202203
-licenseType: Store
+guid: e9b93855a904fd04096240d61184180b
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -12,8 +11,8 @@ MonoImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 92594
-  packageName: Custom Quest - Quest System
+  productId: 253925
+  packageName: Nodecanvas Quests+
   packageVersion: 1.0
-  assetPath: Assets/CustomQuest/Assets/Scripts/Editor/QuestDeleteWindow.cs
-  uploadId: 193386
+  assetPath: Assets/MD/Editor/WelcomeMD.cs
+  uploadId: 605403

@@ -8726,7 +8726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42048845396e58445b7cd589d6972f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
 --- !u!1 &44012429
 GameObject:
   m_ObjectHideFlags: 0
@@ -12191,23 +12190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6bc8fa43070d540abc87e23372aeb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutsceneController: {fileID: 64003136}
-  blinkPanel: {fileID: 657871665}
-  cameraTransform: {fileID: 330585546}
-  blinkSpeed: 0.2
-  lookSpeed: 10
-  lookDirection1: {x: 10, y: 4, z: 3}
-  lookDirection2: {x: 12, y: 100, z: 0}
-  player: {fileID: 1417105192}
-  objectiveText: {fileID: 724411140}
-  typingSpeed: 0.09
-  objectiveMessage: 'Objective: Find out where you are...'
-  skipText: {fileID: 1176176259}
-  breathingAmount: 11
-  breathingSpeed: 6
-  shakeIntensity: 4
-  shakeDuration: 10
-  skipKey: 32
 --- !u!4 &64003138
 Transform:
   m_ObjectHideFlags: 0
@@ -13237,7 +13219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &68000729
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18120,7 +18101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &96954644
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18658,7 +18638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &98760954
 Transform:
   m_ObjectHideFlags: 0
@@ -28170,7 +28149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &148953741
 Transform:
   m_ObjectHideFlags: 0
@@ -28745,7 +28723,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &151066952
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39809,7 +39786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42048845396e58445b7cd589d6972f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
 --- !u!1 &210831403
 GameObject:
   m_ObjectHideFlags: 0
@@ -49614,7 +49590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &265727056
 Transform:
   m_ObjectHideFlags: 0
@@ -56651,6 +56626,7 @@ GameObject:
   - component: {fileID: 1617514901}
   - component: {fileID: 1617514895}
   - component: {fileID: 1617514900}
+  - component: {fileID: 1617514902}
   m_Layer: 0
   m_Name: CHEF
   m_TagString: Untagged
@@ -57436,7 +57412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &320278918
 Transform:
   m_ObjectHideFlags: 0
@@ -70587,7 +70562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &390368241
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -73257,7 +73231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &407410510
 Transform:
   m_ObjectHideFlags: 0
@@ -84163,7 +84136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42048845396e58445b7cd589d6972f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
 --- !u!1 &472568374
 GameObject:
   m_ObjectHideFlags: 0
@@ -85077,18 +85049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af96ef0b8433a0947949b8354f82e4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Balloon
-  price: 50
-  itemIcon: {fileID: 21300000, guid: 703d616c3069f604f94610fe1f90b16b, type: 3}
-  inventorySlot: {fileID: 472517538}
-  itemPrefab: {fileID: 90321878}
-  spawnPoint: {fileID: 552648884}
-  messageText: {fileID: 1457646314}
-  isSpeedItem: 0
-  speedMultiplier: 0
-  speedDuration: 0
-  isFlightItem: 1
-  flightDuration: 15
 --- !u!1 &479351415
 GameObject:
   m_ObjectHideFlags: 0
@@ -97031,11 +96991,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550986961}
   m_Mesh: {fileID: -3611471854593489396, guid: 40e9efa1eec80434e8f4ec7d54191999, type: 3}
---- !u!4 &552648884 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7204837258587646854, guid: ad7e0d3f19402ad4c8b66a9b064de3ea, type: 3}
-  m_PrefabInstance: {fileID: 4009106460786854271}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &553525556
 GameObject:
   m_ObjectHideFlags: 0
@@ -107195,7 +107150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &607372345
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -109805,7 +109759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &622860654
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -111563,7 +111516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &630219063
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -125442,18 +125394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af96ef0b8433a0947949b8354f82e4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Shoes
-  price: 100
-  itemIcon: {fileID: 21300000, guid: 7188dd1aa5e8d6146bd03734a6c6566c, type: 3}
-  inventorySlot: {fileID: 1551368211}
-  itemPrefab: {fileID: 0}
-  spawnPoint: {fileID: 552648884}
-  messageText: {fileID: 1457646314}
-  isSpeedItem: 1
-  speedMultiplier: 2
-  speedDuration: 30
-  isFlightItem: 0
-  flightDuration: 0
 --- !u!1 &724688526
 GameObject:
   m_ObjectHideFlags: 0
@@ -139414,7 +139354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &801011890
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -145116,7 +145055,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aed8295e17284554d80a9c59b00646fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsWindow: {fileID: 1174018036}
 --- !u!1001 &831977485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -152543,7 +152481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &876223178
 Transform:
   m_ObjectHideFlags: 0
@@ -162766,7 +162703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &930433096
 Transform:
   m_ObjectHideFlags: 0
@@ -172783,7 +172719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &984217123
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -178678,7 +178613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &998652273
 Transform:
   m_ObjectHideFlags: 0
@@ -180041,7 +179975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aed8295e17284554d80a9c59b00646fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsWindow: {fileID: 1896749948}
 --- !u!1 &1004631904
 GameObject:
   m_ObjectHideFlags: 0
@@ -195186,37 +195119,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089626643}
   m_Mesh: {fileID: -3611471854593489396, guid: 40e9efa1eec80434e8f4ec7d54191999, type: 3}
---- !u!1 &1090056996
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1090056997}
-  m_Layer: 0
-  m_Name: QuestManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1090056997
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090056996}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.49852, y: 0, z: -0.32745}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1090945993
 GameObject:
   m_ObjectHideFlags: 0
@@ -201059,9 +200961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac56cebbc7a5864cacddbd4693ef162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMoney: 100
-  shopPanel: {fileID: 1412325478}
-  moneyText: {fileID: 1335042339}
 --- !u!1 &1120890317
 GameObject:
   m_ObjectHideFlags: 0
@@ -235137,7 +235036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &1300808132
 Transform:
   m_ObjectHideFlags: 0
@@ -235445,7 +235343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &1302065219
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -240875,7 +240772,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &1332872974
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -246996,18 +246892,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af96ef0b8433a0947949b8354f82e4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Sword
-  price: 150
-  itemIcon: {fileID: 21300000, guid: afad3987ab25afe41b19df1deba9b2e6, type: 3}
-  inventorySlot: {fileID: 1860254765}
-  itemPrefab: {fileID: 786611796}
-  spawnPoint: {fileID: 552648884}
-  messageText: {fileID: 1457646314}
-  isSpeedItem: 0
-  speedMultiplier: 0
-  speedDuration: 0
-  isFlightItem: 0
-  flightDuration: 0
 --- !u!1 &1359376398
 GameObject:
   m_ObjectHideFlags: 0
@@ -249347,18 +249231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af96ef0b8433a0947949b8354f82e4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Balloon
-  price: 50
-  itemIcon: {fileID: 21300000, guid: aba578b8d0999904d909e8aca956fb2f, type: 3}
-  inventorySlot: {fileID: 1551368211}
-  itemPrefab: {fileID: 90321878}
-  spawnPoint: {fileID: 282736885}
-  messageText: {fileID: 1457646314}
-  isSpeedItem: 0
-  speedMultiplier: 2
-  speedDuration: 30
-  isFlightItem: 1
-  flightDuration: 15
 --- !u!1 &1369319080
 GameObject:
   m_ObjectHideFlags: 0
@@ -256292,7 +256164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &1409131775
 Transform:
   m_ObjectHideFlags: 0
@@ -268376,8 +268247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdffcc51f538bef4c8abd3b5bbb6ff17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 100
-  stunTime: 10
 --- !u!4 &1474973697
 Transform:
   m_ObjectHideFlags: 0
@@ -270728,7 +270597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &1487595766
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -274060,7 +273928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &1503270011
 Transform:
   m_ObjectHideFlags: 0
@@ -274479,6 +274346,50 @@ LODGroup:
     renderers:
     - renderer: {fileID: 10058851}
   m_Enabled: 1
+--- !u!1 &1505200717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1505200719}
+  - component: {fileID: 1505200718}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1505200718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505200717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfb4eaa558c0b442a84183c06672752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!4 &1505200719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505200717}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -312.8873, y: -233.77397, z: -301.24164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506273009
 GameObject:
   m_ObjectHideFlags: 0
@@ -277453,7 +277364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &1520788788
 Transform:
   m_ObjectHideFlags: 0
@@ -282251,7 +282161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42048845396e58445b7cd589d6972f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
 --- !u!1 &1552059184
 GameObject:
   m_ObjectHideFlags: 0
@@ -293981,6 +293890,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1617514902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317859172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479c7379a0f9bb141b9dec1685ff7fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  quest: {fileID: 11400000, guid: 57263cab7167b2d48ad29cc7ec61bef4, type: 2}
 --- !u!1 &1617711208
 GameObject:
   m_ObjectHideFlags: 0
@@ -294949,7 +294871,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &1623414946
 Transform:
   m_ObjectHideFlags: 0
@@ -302056,37 +301977,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654079384}
   m_Mesh: {fileID: -3611471854593489396, guid: 40e9efa1eec80434e8f4ec7d54191999, type: 3}
---- !u!1 &1655247740
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1655247741}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1655247741
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1655247740}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.49852, y: 0, z: -0.32745}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1655425186
 GameObject:
   m_ObjectHideFlags: 0
@@ -308358,7 +308248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aed8295e17284554d80a9c59b00646fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsWindow: {fileID: 1174018036}
 --- !u!4 &1683363812
 Transform:
   m_ObjectHideFlags: 0
@@ -323515,7 +323404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!4 &1769206149
 Transform:
   m_ObjectHideFlags: 0
@@ -339040,7 +338928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42048845396e58445b7cd589d6972f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
 --- !u!1 &1860302806
 GameObject:
   m_ObjectHideFlags: 0
@@ -342022,7 +341909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &1881890824
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -346116,7 +346002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b74e337ef86d944adf66d1906f11e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TeleportTo: {fileID: 0}
 --- !u!23 &1902097894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -350305,8 +350190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cc6af9ccf1be946851c360053d9959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 0
-  moneyText: {fileID: 1335042339}
 --- !u!1 &1927805333
 GameObject:
   m_ObjectHideFlags: 0
@@ -351201,7 +351084,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99161f77765edd44b81c634d245d7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 10
 --- !u!135 &1932171431
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -386741,5 +386623,4 @@ SceneRoots:
   - {fileID: 2118511027}
   - {fileID: 585004598}
   - {fileID: 1662063606}
-  - {fileID: 1090056997}
-  - {fileID: 1655247741}
+  - {fileID: 1505200719}

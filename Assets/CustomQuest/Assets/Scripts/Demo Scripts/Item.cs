@@ -11,9 +11,5 @@ public class Item : MonoBehaviour
     /// <param name="other">The other trigger colliding</param>
     public void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<CQExamplePlayer>()) //TODO: Should this be in CQPlayerObject instead?
-        {
-            other.GetComponent<CQExamplePlayer>().pickUpItem(this);
-        }
     }
 }

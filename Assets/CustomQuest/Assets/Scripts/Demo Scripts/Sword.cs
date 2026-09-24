@@ -5,17 +5,13 @@
 /// </summary>
 public class Sword : MonoBehaviour
 {
-    private CQExamplePlayer player;
 
     /// <summary>
     /// Use this for initialization
     /// </summary>
     private void Start()
     {
-        if (player == null)
-        {
-            player = GetComponentInParent<CQExamplePlayer>();
-        }
+
     }
 
     /// <summary>
@@ -23,13 +19,5 @@ public class Sword : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        if (player.attacking)
-        {
-            GetComponent<Collider>().enabled = true;
-        }
-        else
-        {
-            GetComponent<Collider>().enabled = false;
-        }
     }
 }
